@@ -1,14 +1,15 @@
-import ProfilePic from '../assets/eu-bg-dark.png'
+import SocialMedias from '../components/SocialMedias'
 
-import '../styles/components/sidebar.sass'
+import ProfilePic from '../assets/eu-bg-dark.png'
+import '../styles/containers/sidebar.sass'
 
 
 const Sidebar = () => {
   return (
     <aside id="sidebar">
-      <p>img</p>
+      <img src={ProfilePic} alt="Hugo Aguiar" />
       <div className="title">Desenvolvedor</div>
-      <p>redes sociais</p>
+      <SocialMedias />
       <p>informações de contato</p>
       <a href="" className="btn">Baixe meu CV</a>
     </aside>
