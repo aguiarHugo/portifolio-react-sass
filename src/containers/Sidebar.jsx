@@ -1,4 +1,5 @@
 import SocialMedias from '../components/SocialMedias'
+import Information from '../components/Information'
 
 import ProfilePic from '../assets/eu-bg-dark.png'
 import '../styles/containers/sidebar.sass'
@@ -10,7 +11,7 @@ const Sidebar = () => {
       <img src={ProfilePic} alt="Hugo Aguiar" />
       <div className="title">Desenvolvedor</div>
       <SocialMedias />
-      <p>informações de contato</p>
+      <Information />
       <a href="" className="btn">Baixe meu CV</a>
     </aside>
   )
